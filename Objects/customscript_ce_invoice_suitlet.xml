@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_ce_invoice_suitlet">
+  <description>Invoices sales order that may be filtered by customer.</description>
+  <isinactive>F</isinactive>
+  <name>Craig&apos;s Invoicing Suitelet</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/ce_so_search.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_ce_invoice_suitlet">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>TESTING</status>
+      <title>Craig&apos;s Invoicing Suitelet</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>
