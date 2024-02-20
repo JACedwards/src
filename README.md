@@ -1,0 +1,1 @@
+This is a NetSuite suitelet for invoicing sales orders.  It was created as an exercise for my work at Solution Source.  Included in this project is a Map/Reduce to process the suitelet, and a custom record with a custom field to report status of M/R to final suitelet page.
